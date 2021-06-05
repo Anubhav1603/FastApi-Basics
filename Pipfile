@@ -13,4 +13,4 @@ uvicorn = {version = "~=0.13.4", extras = ["standard"]}
 python_version = "3.8"
 
 [scripts]
-start = "uvicorn api:app --reload"
+start = "uvicorn working:app --reload"
